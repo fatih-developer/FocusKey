@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:adaptive_theme/adaptive_theme.dart';
-import 'package:flutter/services.dart'; // Eklendi
-import 'package:path_provider/path_provider.dart';
-
+import 'package:flutter/services.dart';
 import 'screens/login_screen.dart';
 import 'screens/register_screen.dart';
 import 'screens/home_screen.dart';
@@ -17,14 +15,6 @@ void main() async {
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
-  
-  // Belgeler klasörünü kontrol et
-  try {
-    final dir = await getApplicationDocumentsDirectory();
-
-  } catch (e) {
-
-  }
   
   // Veritabanını başlat
   try {
