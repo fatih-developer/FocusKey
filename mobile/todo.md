@@ -20,14 +20,14 @@
   - [ ] Biyometrik kimlik doğrulama entegrasyonu
 
 - [ ] Veri Şifreleme
-  - [ ] AES-256 şifreleme uygulaması
-  - [ ] Şifrelenmiş veritabanı yapılandırması
-  - [ ] Bellek yönetimi ve hassas verilerin güvenli temizliği
+  - [x] Kategori yönetimi ekranı oluşturulacak
+- [x] Kategoriler veritabanına alınacak ve dinamik olarak yönetilecek
+- [x] add_credential_screen.dart dosyasında kategori seçimi dinamik olacak
 
 ## 3. Veritabanı Yönetimi
 - [ ] SQLCipher ile şifreli SQLite veritabanı kurulumu
-- [ ] Temel CRUD işlemleri için modüller
-- [ ] Veri yedekleme ve geri yükleme mekanizması
+- [x] Kayıtlı şifreleri kartlar halinde listeleme, kategori filtresi, arama özelliği.
+- [x] Şifre gizliliği ve geçici gösterim (modal).
 
 ## 4. Kullanıcı Arayüzü
 ### Giriş ve Güvenlik
